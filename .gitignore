@@ -2,6 +2,6 @@
 data/carpark_history_3_months_combined.csv
 data/carpark_history_3_months_combined.json
 data/carpark_history_1_month_combined.csv
-
+data/carpark_history_3_months
 # Secret Files
 # .env
