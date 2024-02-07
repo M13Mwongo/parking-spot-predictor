@@ -1,0 +1,5 @@
+# Large files to ignore
+data/carpark_history_3_months_combined.csv
+
+# Secret Files
+# .env
