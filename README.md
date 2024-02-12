@@ -1,5 +1,5 @@
 # **# __PARKING SPOT PREDICTOR__**
-![pexels-kelly-2402235.jpg](attachment:pexels-kelly-2402235.jpg)
+![pexels-kelly-2402235.jpg](images/carpark_image.jpg)
 
 ## <ins>Overview</ins>
 This repository contains a Time series project focused on predicting parking lot occupancy. The goal is to develop a model that can predict the availability of a parking spot in various parking facilities in the city at a given day and time, helping users plan their parking in advance.
@@ -18,17 +18,21 @@ As this project was a group project, the contributors to this work are as follow
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Introduction](#Introduction)
-- [Data](#data)
-- [Data](#data)
+- [Business Understanding](#Business-Understanding)
+- [Problem Statement](#Problem-Statement)
+- [Objectives](#Objectives)
+- [Potential Challenges](#Potential-Challenges)
+- [Data Understanding](#Data-Understanding)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-- [Model Training](#model-training)
+- [Modelling](#Modelling)
 - [Evaluation](#evaluation)
 - [Deployment](#deployment)
+- [Interpeting Results](#Interpeting-Results)
+- [Future Steps](#Future-Steps)
 - [Contributing](#contributing)
 - [License](#license)
 
-## </ins> Installation</ins>
+## Installation
 
 Clone the repository and install the required dependencies using the following commands:
 
@@ -38,7 +42,7 @@ cd parking-lot-predictor
 pip install -r requirements.txt
 ```
 
-## </ins>Usage</ins>
+## Usage
 To use the parking lot predictor, follow these steps:
 
 ## <ins>Business Understanding</ins>
