@@ -73,7 +73,6 @@ The holiday data was scrapped from [National Holidays in Australia in 2023](http
 Analysis and visualization of data to understand its characteristics, patterns, and potential insights is done in this section. Histograms, kernel density plots, and box plots are used to understand the distribution of numerical variables and count plot for categorical variables.
 On bivariate analysis, relationships between pairs of variables are explored and visualized using bar plots, line plot and correlation heatmap. On multivariate analysis, parking availability patterns across different days of the week and times of the day are visualised using a heatmap
 </p>
-![heatmap.png](images/heatmap.png)
 
 ## Modelling
 <p align="justify">
