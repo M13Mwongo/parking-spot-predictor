@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 import pickle
+import folium
 
 MAPBOX_STYLE = "mapbox://styles/mmm97/cl2m0aoax00a214kszmx0eefu"
 

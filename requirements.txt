@@ -1,4 +1,6 @@
+folium
 pickle
 pandas
 pydeck
 streamlit
+streamlit-folium
