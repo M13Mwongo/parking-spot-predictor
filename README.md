@@ -46,7 +46,6 @@ To develop a robust time series-based parking spot predictor that accurately for
 </p>
 
 ### b) Specific Objectives
-<p align="justify">
     
 1. To collect and preprocess historical data from various sources and integrate relevant time-varying features, such as time of day, day of the week, holidays, and location into the data.
     
@@ -56,10 +55,9 @@ To develop a robust time series-based parking spot predictor that accurately for
     
 4. To investigate the impact of holidays and time on parking availability, examining how these factors influence parking spot occupancy and demand.
     
-5. To explore various time series forecasting techniques, including ARIMA, LSTM and Prophet and evaluate the performance of each technique using metrics like MAE, MSE and RMSE.
+5. To explore various time series forecasting techniques, including ARIMA, XGBoost and Prophet and evaluate the performance of each technique using metrics like MAE, MSE and RMSE.
     
 6. To develop and deploy a user-friendly interface that allows motorists to access real-time parking predictions and navigate to available parking spots efficiently.
-</p>
 
 ## Data Understanding
 <p align="justify">
@@ -75,7 +73,7 @@ The holiday data was scrapped from [National Holidays in Australia in 2023](http
 Analysis and visualization of data to understand its characteristics, patterns, and potential insights is done in this section. Histograms, kernel density plots, and box plots are used to understand the distribution of numerical variables and count plot for categorical variables.
 On bivariate analysis, relationships between pairs of variables are explored and visualized using bar plots, line plot and correlation heatmap. On multivariate analysis, parking availability patterns across different days of the week and times of the day are visualised using a heatmap
 </p>
-![heatmap.jpg](images/heatmap.png)
+![heatmap.png](images/heatmap.png)
 
 ## Modelling
 <p align="justify">
@@ -88,13 +86,12 @@ Deployment using Streamlit was done to turn the data-driven Python script into a
     </p>
 
 ## Future Steps
-<p align="justify">
+
 1. To implement a real-time data acquisition pipeline to continuously update the model with the latest parking occupancy data.
 
 2. To conduct pilot tests and gather feedback from end-users to assess the usability and effectiveness of the parking prediction system in real-world scenarios.
 
 3. To deploy the finalized parking spot predictor in urban areas, collaborating with city authorities and parking management companies to integrate it into existing infrastructure and promote widespread adoption.
-</p>
 
 ## Technologies Used
     - Python
