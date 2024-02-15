@@ -2,7 +2,7 @@
 ![pexels-kelly-2402235.jpg](images/carpark_image.jpg)
 
 ## <ins>Overview</ins>
-This repository contains a Time series project focused on predicting parking lot occupancy. The goal is to develop a model that can predict the availability of parking spots in various parking facilities in the city at a given day and time, helping users plan their parking in advance.
+This repository contains a Time series project focused on predicting parking lot occupancy. The goal is to develop a model that can predict the availability of parking spots in various parking facilities in the city at a given day, helping users plan their parking in advance.
 
 ## <ins>Preliminaries</ins>
 
@@ -22,16 +22,16 @@ As this project was a group project, the contributors to this work are as follow
 - [Data Understanding](#Data-Understanding)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Modelling](#Modelling)
-- [Deployment](#deployment)
+- [Deployment (Streamlit)](#deployment-(streamlit))
 - [Future Steps](#Future-Steps)
 - [Technologies Used](#Technologies-Used)
 
 
 
 ## Business Understanding
-<div style='text-align: justify;'>
+<p align="center">
 Finding a parking place in the busy urban environments of major cities throughout the world is a problem that worries locals, commuters, and tourists equally. The need for effective parking solutions is greater than ever due to the fast urbanization, rising traffic, and expanding population. Our initiative is to change parking management in metropolitan areas confronting comparable difficulties throughout the globe by utilizing data-driven insights in response to this urgent issue. It is impossible to exaggerate the significance of this endeavor for metropolitan areas. Urban centers are the epicenters of activity, drawing millions of people for business, pleasure, and employment because they are social, cultural, and economic magnets. Nonetheless, these cities' disorganized traffic and inadequate parking facilities provide serious difficulties for local government, companies, and citizens. Our initiative intends to improve urban mobility by reducing travel times, relieving traffic congestion, and offering accurate estimates of parking spot availability.
-</div>
+</p>
 
 ## Problem Statement
 <div style='text-align: justify;'>
@@ -48,10 +48,15 @@ To develop a robust time series-based parking spot predictor that accurately for
 ### b) Specific Objectives
 <div style='text-align: justify;'>
 1. To collect and preprocess historical data from various sources and integrate relevant time-varying features, such as time of day, day of the week, holidays, and location into the data.
+    
 2. To understand the distribution of both numerical columns (capacity, occupancy) and categorical columns (is_holiday) in our data.
+    
 3. To analyze the monthly and daily average occupancy and average parking availability across all parking facilities, identifying patterns and trends over time.
+    
 4. To investigate the impact of holidays and time on parking availability, examining how these factors influence parking spot occupancy and demand.
+    
 5. To explore various time series forecasting techniques, including ARIMA, LSTM and Prophet and evaluate the performance of each technique using metrics like MAE, MSE and RMSE.
+    
 6. To develop and deploy a user-friendly interface that allows motorists to access real-time parking predictions and navigate to available parking spots efficiently.
 </div>
 
@@ -61,10 +66,10 @@ The dataset used for this project is available in the data directory. It include
 
 Our main data was sourced from the Transport for New South Wales(TfNSW) website, more speficially, from their [Car Park API](https://opendata.transport.nsw.gov.au/dataset/car-park-api).
 
-The holiday data was scrapped from https://www.officeholidays.com/countries/australia/new-south-wales/2023 
+The holiday data was scrapped from [National Holidays in Australia in 2023](https://www.officeholidays.com/countries/australia/new-south-wales/2023). 
 </div>
 
-## Exploratory Data analysis
+## Exploratory Data Analysis (EDA)
 <div style='text-align: justify;'>
 Analysis and visualization of data to understand its characteristics, patterns, and potential insights is done in this section. Histograms, kernel density plots, and box plots are used to understand the distribution of numerical variables and count plot for categorical variables.
 On bivariate analysis, relationships between pairs of variables are explored and visualized using bar plots, line plot and correlation heatmap. On multivariate analysis, parking availability patterns across different days of the week and times of the day are visualised using a heatmap
@@ -90,7 +95,7 @@ Deployment using Streamlit was done to turn the data-driven Python script into a
 3. To deploy the finalized parking spot predictor in urban areas, collaborating with city authorities and parking management companies to integrate it into existing infrastructure and promote widespread adoption.
 </div>
 
-### Technologies Used
+## Technologies Used
     - Python
     - Jupyter Notebook
     - Machine Learning Libraries (Pandas, sklearn, matplotlib, numpy, scikit-learn, XGBoost, prophet, statsmodels)
