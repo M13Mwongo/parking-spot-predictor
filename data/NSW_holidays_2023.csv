@@ -1,0 +1,16 @@
+,Day,date,Holiday Name,Type,Comments
+0,Sunday,Jan 01,New Year's Day,National Holiday,
+1,Monday,Jan 02,New Year's Day Holiday,National Holiday,
+2,Thursday,Jan 26,Australia Day,National Holiday,
+3,Friday,Apr 07,Good Friday,National Holiday,
+4,Saturday,Apr 08,Easter Saturday,Regional Holiday,"Except TAS, WA"
+5,Sunday,Apr 09,Easter Sunday,Regional Holiday,"ACT, NSW, QLD, VIC, WA"
+6,Monday,Apr 10,Easter Monday,National Holiday,Monday after Easter Sunday
+7,Tuesday,Apr 25,Anzac Day,National Holiday,
+8,Sunday,May 14,Mother's Day,Not A Public Holiday,2nd Sunday in May. Not a public holiday
+9,Monday,Jun 12,King's Birthday,Regional Holiday,"2nd Monday in June. except QLD, WA"
+10,Monday,Aug 07,Bank Holiday,Not A Public Holiday,New South Wales. Banks only
+11,Sunday,Sep 03,Father's Day,Not A Public Holiday,1st Sunday in September. Not a public holiday
+12,Monday,Oct 02,Labour Day,Regional Holiday,"NSW, ACT, SA"
+13,Monday,Dec 25,Christmas Day,National Holiday,
+14,Tuesday,Dec 26,Boxing Day,Regional Holiday,Except South Australia
